@@ -1,0 +1,199 @@
+*{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        box-sizing: border-box;
+        text-decoration: none;
+}
+
+header{
+        padding: 12px 5%;
+        background-color: #000;
+        display: flex;
+}
+ 
+
+h1{
+        width: 70px;
+        height: 70px;
+        background-image: url(../images/music-note.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        text-indent: -9999px;  
+}
+
+h1 a{
+        display: block;
+        width: 70px;
+        height: 70px;
+}
+
+ul{
+    padding: 22px 170px;
+}
+
+ul li{
+        float: left;
+        margin-left: 20px;
+}
+
+ul li a {
+        font-size: 18px;
+        color:#fff;
+}
+
+h2{
+        padding: 54px 5%;
+        font-size: 24px;
+}
+.socialcontact {
+    width:  50px ;
+    height: 100px;
+    position: fixed;
+    top: 150px;
+    right: 0;
+
+}
+.socialitem{
+    width:50px ;
+    height: 50px;
+    overflow: hidden;
+}
+.socialitem  img {
+    width: 100%;
+}
+.articlesbox{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+}
+
+.articlesbox article{
+        height: 270px;
+        width: 25%;
+        box-sizing: border-box;
+        margin-right: 10%;
+}
+
+.article_txt {
+        width: 100%;
+        height: 240px;
+        border: 1px solid black;
+        position: relative;
+        box-sizing: border-box;
+        padding:10px ;
+
+}
+
+.emojiitem{
+
+        width: 50px;
+        height: 50px;
+        overflow: hidden; 
+        position: absolute;
+        top: 0;
+        right: 0;
+   
+}
+.emojiitem img{
+       width: 100%;      
+}
+
+.images{
+        width: 100%;
+        height: 90px;
+        display: flex;
+}
+
+.images .soundimage{
+        width: 24%;
+        height: 80px;
+        overflow: hidden;
+        margin-left: 1px;
+        margin: 60px auto;
+}
+
+.images .soundimage img{
+    width: 100%;
+}
+.article_txt h3 {
+    margin-top: 20%;
+    font-size: 18px;
+}
+.article_txt p{
+    margin-top: 5%;
+    font-size: 14px;
+}
+
+article .lnkto{
+    font-size: 12px;
+    padding: 10px;
+    
+}
+.mainsection section{
+    margin-bottom: 50px;
+}
+
+footer{
+    padding: 10px;
+    width: 100%;
+    background-color: #000;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+footer p{
+    font-size: 18px;
+    color: #fff;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+footer .ul2{
+    padding: 22px 170px;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/* page playlists */
+
+.playlists{
+    width: 90%;
+    background-color: aliceblue;
+    margin: 50px auto;
+    display: flex;
+    
+    
+}
+
+.playlist1{
+    width: 30%;
+    height: 360px;
+    background-color: aqua;
+}
+
+.ul3{
+   padding: 10px;
+   color: #000;
+}
+.ul3 li {
+    font-size: 18px;
+}
+
+
+
+
+
