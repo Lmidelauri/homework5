@@ -28,16 +28,16 @@ h1 a{
         height: 70px;
 }
 
-ul{
+header ul{
     padding: 22px 170px;
 }
 
-ul li{
+header ul li{
         float: left;
         margin-left: 20px;
 }
 
-ul li a {
+ header ul li a {
         font-size: 18px;
         color:#fff;
 }
@@ -66,6 +66,7 @@ h2{
         width: 90%;
         margin: 0 auto;
         display: flex;
+        
 }
 
 .articlesbox article{
@@ -73,6 +74,7 @@ h2{
         width: 25%;
         box-sizing: border-box;
         margin-right: 10%;
+        
 }
 
 .article_txt {
@@ -82,7 +84,12 @@ h2{
         position: relative;
         box-sizing: border-box;
         padding:10px ;
+        
 
+}
+.article_txt p{
+    color: #000;
+    
 }
 
 .emojiitem{
@@ -140,6 +147,7 @@ footer{
     background-color: #000;
     box-sizing: border-box;
     margin-top: 100px;
+    clear: both;
 }
 
 footer p{
@@ -159,6 +167,18 @@ footer .ul2{
     margin-left: auto;
     margin-right: auto;
 }
+footer ul{
+    padding: 10px;
+    color: #000;
+   
+ }
+ footer ul li a {
+    padding: 10px;
+     clear: both;
+     font-size: 18px;
+     color:#fff;
+ }
+ 
 
 footer h1{
     text-align: center;
@@ -172,9 +192,9 @@ footer h1{
 
 .playlists{
     width: 90%;
-    background-color: aliceblue;
     margin: 50px auto;
     display: flex;
+    margin-left: 5%;
     
     
 }
@@ -182,16 +202,49 @@ footer h1{
 .playlist1{
     width: 30%;
     height: 360px;
-    background-color: aqua;
+    padding-left: 10px;
 }
 
-.ul3{
-   padding: 10px;
-   color: #000;
-}
-.ul3 li {
+.playlisthist li a {
     font-size: 18px;
+    text-align: inherit;
+    text-decoration: none;
+    color: #000;
 }
+
+.musicsound{
+    width: 300px;
+    height: 90px;
+    display: flex;
+    margin: 60px auto;
+  
+}
+.musicsound img{
+       width: 24%;
+        height: 80px;
+        overflow: hidden;
+        margin-left: 1px;
+        
+}
+ 
+.playlists2{
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    
+    
+}
+.hits{
+    margin-right: 10px;
+}
+
+ h3{
+    margin: 10px auto;
+    font-size: 36px;
+    text-align: center;
+    
+}
+
 
 
 
